@@ -1,14 +1,14 @@
 /*
-Theme Name:   	Storefront Child Theme
-Theme URI:    	https://github.com/stuartduff/storefront-child-theme
-Author:       	Stuart Duff
-Author URI:     http://stuartduff.com
+Theme Name:   	Thème de la colline aux pins
+Theme URI:    	https://github.com/eoto88/collineauxpins-theme
+Author:       	Eric Turcotte
+Author URI:     https://collineauxpins.com/
 Template:     	storefront
 Description:  	This is a blank child theme for WooThemes StoreFront theme
 Version:      	1.0.0
 License:      	GNU General Public License v2 or later
 License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:  	storefront
+Text Domain:  	collineauxpins
 Tags:         	black, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -22,3 +22,56 @@ Images License: GNU General Public License v2 or later
 /*
  * Add your own custom css below this text.
  */
+
+/* Filters */
+.bapf_sfa_taxonomy,
+.bapf_sfa_unall {
+    background-color: #f0f0f0;
+    border-radius: 0.5em;
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.bapf_sfa_taxonomy ul {
+    margin: 0;
+}
+
+.braapf_unselect i {
+    margin: 0.5em;
+}
+
+.berocket_single_filter_widget h3 {
+    font-size: 1.5em;
+}
+
+.author_bio_section {
+    background-color: #f0f0f0;
+    padding: 1em;
+    border: 1px solid #D8D8D8;
+    border-radius: 4px;
+}
+
+/* Author section */
+.author_name{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.author_details img {
+    border: 1px solid #D8D8D8;
+    border-radius: 50%;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+/* Contact form */
+.wpcf7-form input,
+.wpcf7-form textarea {
+    border: 2px solid #6d6d6d;
+    border-radius: 4px;
+}
+
+.form-required {
+    color: #fc3232;
+}
